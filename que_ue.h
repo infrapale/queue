@@ -21,5 +21,5 @@ void queue_reset(queue_struct *pq);
 q_ret_status queue_put( queue_struct *pq, uint8_t *msg);
 q_ret_status queue_get( queue_struct *pq, uint8_t *msg);
 boolean queue_available( queue_struct *pq);
-boolean queue_available( queue_struct *pq);
+void queue_debug(queue_struct *pq);
 #endif
